@@ -1,0 +1,361 @@
+body{
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.navbar {
+margin-bottom: 0px;
+  z-index: 1999;
+  position: absolute;
+  width: 100%;
+  background: transparent !important;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+a{
+    color: white;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+
+
+/* Portada completa */
+.jumbotron{
+    height: 100vh;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 5%;
+    margin-bottom: 0px;
+    background-image: url("../Img/fondo.jpg");
+    background-size: cover;
+    color: white;
+    background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../Img/fondo.jpg);
+    position: relative;
+}
+
+#fondo:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.display-4{
+    padding-top: 35vh;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .display-4 {
+        padding-top: 15vh;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+  }
+
+
+#tituloPortada{
+    /* color: white;
+    text-align: left; */
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 992px) {
+    #tituloPortada {
+        
+        font-size: 2rem;
+    }
+  }
+
+.textoPortada{
+    color: white;
+    text-align: left;
+}
+
+
+
+.mockup{
+    padding-top: 6rem;
+    margin-left: -17rem;
+    height: 70vh;
+}
+
+@media screen and (max-width: 576px) {
+    .mockup {
+        /* padding-top: 2rem; */
+        height: 20vh;
+        margin-left: 0,5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .mockup {
+        /* padding-top: 2rem; */
+        height: 30vh;
+        margin-left: 1rem;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .mockup {
+        /* padding-top: 2rem; */
+        height: 40vh;
+        margin-left: 1rem;
+    }
+  }
+
+
+.subtitulo{
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.btn-light{
+    color: rgba(39, 70, 133, 0.8);
+}
+
+@media screen and (max-width: 992px){
+    .btn-light{
+        width: 6rem;
+    }
+}
+
+
+/* ------------------------------------------Descripción-----------------------------------------------*/
+
+
+#tituloDescripcion{
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    #tituloDescripcion {
+        font-size: 2rem;
+    }
+  }
+
+
+.texto{
+    padding-top: 0,5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #343a4071;
+}
+
+.iconos{
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+#contenidos{
+    padding-top: 0,2rem;
+}
+
+.proceso{
+    color: #343a40;
+    font-weight: 700;
+}
+
+.desProceso{
+    color: #343a4091;
+}
+
+
+
+
+/* ------------------------------------------Proceso-----------------------------------------------*/
+
+.section{
+    padding: 7rem 0;
+}
+
+.paso {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 40px;
+    text-align: left;
+}
+
+.paso .number {
+    background: linear-gradient(-45deg, #1391a5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-fluid{
+    width: 800px;
+}
+
+.pasosTexto{
+    color: #343a4091;
+    font-weight: 300;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*Proceso*/
+.col-sm{
+    padding-top: 3rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    color:#343a40 ;
+}
+
+.número{
+    font-weight: 900;
+}
+
+#resumen{
+    text-align: center;
+    font-weight: 200;
+}
+
+.carousel-item{
+    height: 90vh;
+}
+
+.carousel-item:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+/*---------------------------------------------------------Descarga---------------------------------------------------------*/
+#fondoColor{
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    width: 100%;
+}
+#tituloDescarga{
+    color: white;
+}
+
+
+/*---------------------------------------------------------Precios---------------------------------------------------------*/
+.pricing-header{
+    justify-content: center;
+    color:#343a40 ;
+}
+
+.tituloPrecios{
+    font-weight: 700;
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 100px;
+}
+
+.btn-primary{
+    background: linear-gradient(-45deg, #3db3c5, #274685);
+    /* background-color: #1391a5; */
+    /* border-color: #1391a5; */
+}
+
+.btn-primary:before{
+    background-color: #126c7a;
+    border-color: #126c7a;
+}
+
+li{
+    color: #343a40af;
+    font-weight: 60;
+}
+
+.card{
+    border: 0px white;
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header{
+    background-color: transparent;
+}
+
+.lead{
+    color: #343a40af;
+    font-weight: 60;
+}
+
+/*---------------------------------------------------------Contacto---------------------------------------------------------*/
+.form-group{
+    text-align: left;
+    justify-content: left;
+}
+
+.map-container{
+    overflow:hidden;
+    position:relative;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    width:100%;
+    position:absolute;
+    }
+
+    .col-sm{
+        height: 50vh;
+    }
+
+    #map-container-google-1{
+        height: 50vh;
+    }
+
+    /*---------------------------------------------------------Caja de comentarios---------------------------------------------------------*/
+    #divComentarios{
+        text-align: left;
+        color: white;
+    }
+
+    #name{
+        margin-bottom: 1rem;
+    }
+
+    #fondoComentarios{
+        margin-top: 2rem;
+        background: linear-gradient(-45deg, #3db3c5, #274685);
+        
+    }
+
+    #tituloComentarios{
+        color: white;
+    }
+
+    #comment{
+        margin-bottom: 1rem;
+    }
+
+    hr{
+       background-color: white;
+    }
